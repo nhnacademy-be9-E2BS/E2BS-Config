@@ -55,5 +55,5 @@ jobs:
           script_stop: true
           script: |
             chmod +x ~/startup.sh
-            bash ~/startup.sh front
+            bash ~/startup.sh config
 
