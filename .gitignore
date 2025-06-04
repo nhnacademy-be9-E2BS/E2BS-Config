@@ -39,3 +39,6 @@ build/
 *.iml
 out
 gen
+
+# SSH private key for Config Server (절대 커밋 금지)
+src/main/resources/e2bs_config_key
