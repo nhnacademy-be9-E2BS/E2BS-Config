@@ -14,7 +14,7 @@ spring:
           strictHostKeyChecking: false
           default-label: main
           search-paths: .
-          privateKey: ${GIT_PRIVATE_KY}
+          privateKey: {GIT_PRIVATE_KEY};
 eureka:
   client:
     fetch-registry: true
